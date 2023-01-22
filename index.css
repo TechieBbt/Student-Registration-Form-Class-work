@@ -1,0 +1,43 @@
+body{
+    background-color:skyblue;
+    margin: 10px;
+    padding: 10px;
+}
+hr{
+    background-color: white;
+    height: 5px;
+    width: 98.8%;
+    margin-left: 1px;
+
+}
+#fname{
+    height:25px;
+}
+#mname{
+    height:25px;
+}
+#lname{
+    height:25px;
+}
+#phone{
+    height:25px;
+}
+#address{
+    height:70px;
+}
+#email{
+    height:25px;
+}
+.registerbtn{
+    background-color: green;
+    color: white;
+    text-align: center;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    outline:none;
+    justify-content: center;
+    width: 99%;
+    font-size: 14px;
+}

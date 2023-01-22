@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+<hr>
+<form>
+    <div>
+        <label for="fname" class="fname">First name</label><br/>
+        <input type="text" id="fname" name="fname" placeholder="Firstname" size="180"/><br/>
+        <br>
+        <label for="mname" class="mname">Middlename</label><br/>
+        <input type="text" id="mname" name="mname" placeholder="Middlename" size="180"/><br/>
+        <br>
+        <label for="lname" class="lname">Last name</label><br/>
+        <input type="text" id="lname" name="lname" placeholder="Lastname" size="180"/><br/>
+        <br>
+    </div>
+    <div>
+        <label for="course" class="course">Course:</label>
+        <select name="course" id="course">
+        <option value="select">Select</option>
+        <option value="frontend">Front end</option>
+        <option value="Python">Python</option>
+        <option value="Data">Data Science</option><br>
+        <br>
+        </select>
+    </div>
+    <div class="Gender">
+        <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+            <br>
+    </div>
+    <br>
+    <div>
+        <label for="phone">Phone:</label><br/>
+        <input type="text" id="phone" name="phone" value="+234" size="180"/><br>
+        <br>
+        <input type="text" id="phone" name="phone" placeholder="Phone no." size="180"/><br>
+        <br>
+    </div>
+        <label for="address">Current Address:</label><br/>
+        <input type="text" id="address" name="address" size="180"/><br/>
+        <br>
+        <label for="email">Email</label><br/>
+        <input type="text" id="email" name="email" placeholder="Enter Email" size="180"/><br/>
+        <br>
+        <label for="password">Password</label><br/>
+        <input type="text" id="password" name="password" placeholder="Enter Password" size="180"/><br/>
+        <br>
+        <label for="password">Re-Type Password</label><br/>
+        <input type="text" id="password" name="password" placeholder="ReType Password" size="180"/><br/>
+        <br>
+        <button type="submit" class="registerbtn">Register</button>
+</form>
+</body>
+</html>
